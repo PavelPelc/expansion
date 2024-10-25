@@ -3,7 +3,6 @@ package bi.ui
 import bi.ui.pane.AbstractScreen
 import bi.ui.pane.BlueScreen
 import bi.ui.pane.SplashScreen
-import com.expansion.ui.pane.MainMenuScreen
 
 class PaneManager() {
 
@@ -17,7 +16,7 @@ class PaneManager() {
 
     fun load() {
 
-        paneMap[UiState.MAIN_MENU] = MainMenuScreen()
+       // paneMap[UiState.MAIN_MENU] = MainMenuScreen()
 
     }
 

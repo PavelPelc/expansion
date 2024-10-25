@@ -4,45 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723f2f0f-058c-4a26-8915-c0a2ce1920fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/expansion/HelloApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/expansion/HelloController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/BeginEnd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/DiscreteScrollItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/ExpansionApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/MenuCreator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/MenuItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/PaneManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/Redrawable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/TwoPoints.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/UiContext.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/UiFsm.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/UiUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/art/Art.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/art/MiniTextArt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/art/TextArt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/AbstractScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/BlueScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/MainMenuScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/SplashScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/expansion/expansion/hello-view.fxml" afterDir="false" />
+    <list default="true" id="723f2f0f-058c-4a26-8915-c0a2ce1920fd" name="Changes" comment="init ui">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/control/UnitFSM.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/model/HUnit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/model/House.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/model/UnitState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/model/plane/Dot.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/model/plane/Endless2DArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/model/plane/Plane.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/model/plane/Tile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/expansion/model/TestPlane.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/expansion/expansion/HelloApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/HelloApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/expansion/expansion/HelloController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/HelloController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/ExpansionApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/ExpansionApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/PaneManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/PaneManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/AbstractScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/AbstractScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/SplashScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/expansion/ui/pane/SplashScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/expansion/expansion/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/expansion/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +51,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/ideawrkspc/Horses/Expansion/src/main/kotlin/com/expansion/ui"
+    "last_opened_file_path": "D:/ideawrkspc/Horses/Expansion/src/main/kotlin/com/expansion/ui",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,23 +61,102 @@
       <recent name="D:\ideawrkspc\Horses\Expansion\src\main\kotlin\com\expansion\ui\art" />
       <recent name="D:\ideawrkspc\Horses\Expansion\src\main\kotlin\com\expansion\app" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.expansion.expansion.model.plane" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.expansion.ui.pane" />
       <recent name="com.expansion.ui.art" />
       <recent name="com.expansion.app" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ExpansionAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.expansion.ui.ExpansionAppKt" />
+  <component name="RunManager" selected="JUnit.TestPlane">
+    <configuration name="TestPlane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Expansion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.expansion.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.expansion.model" />
+      <option name="MAIN_CLASS_NAME" value="com.expansion.model.TestPlane" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlane.testEvaluateRoadHugeCompute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expansion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.expansion.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.expansion.model" />
+      <option name="MAIN_CLASS_NAME" value="com.expansion.model.TestPlane" />
+      <option name="METHOD_NAME" value="testEvaluateRoadHugeCompute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlane.testEvaluateRoadSmallDisplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expansion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.expansion.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.expansion.model" />
+      <option name="MAIN_CLASS_NAME" value="com.expansion.model.TestPlane" />
+      <option name="METHOD_NAME" value="testEvaluateRoadSmallDisplay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlane.testEvaluateRoadSmallDisplay2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expansion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.expansion.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.expansion.model" />
+      <option name="MAIN_CLASS_NAME" value="com.expansion.model.TestPlane" />
+      <option name="METHOD_NAME" value="testEvaluateRoadSmallDisplay2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlane.testEvaluateRoute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Expansion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.expansion.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.expansion.model" />
+      <option name="MAIN_CLASS_NAME" value="com.expansion.model.TestPlane" />
+      <option name="METHOD_NAME" value="testEvaluateRoute" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ExpansionAppKt" />
+        <item itemvalue="JUnit.TestPlane" />
+        <item itemvalue="JUnit.TestPlane.testEvaluateRoadHugeCompute" />
+        <item itemvalue="JUnit.TestPlane.testEvaluateRoute" />
+        <item itemvalue="JUnit.TestPlane.testEvaluateRoadSmallDisplay2" />
+        <item itemvalue="JUnit.TestPlane.testEvaluateRoadSmallDisplay" />
       </list>
     </recent_temporary>
   </component>
@@ -97,6 +169,42 @@
       <option name="presentableId" value="Default" />
       <updated>1728467742992</updated>
     </task>
+    <task id="LOCAL-00001" summary="init ui">
+      <option name="closed" value="true" />
+      <created>1729340829631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729340829631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="init ui" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/com/expansion/model/TestPlane.kt</url>
+          <line>25</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/expansion/model/plane/Plane.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

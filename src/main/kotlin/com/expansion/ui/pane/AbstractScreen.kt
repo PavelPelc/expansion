@@ -61,7 +61,7 @@ abstract class AbstractScreen : Pane(), Redrawable {
         var row = 1 //one for border
 
         menuItems.forEach {
-            val art = TextArt("${it.key} .. ${it.text}", offset+UiContext.EM*(col*max+maxKey-it.key.length), border + row*UiContext.TEXT_SIZE, Color.rgb(0, 87, 183))
+            val art = TextArt("${it.key} .. ${it.text}", offset+ UiContext.EM*(col*max+maxKey-it.key.length), border + row* UiContext.TEXT_SIZE, Color.rgb(0, 87, 183))
             menuGroup.children.addAll(art.enlist())
             art.label.onMouseClicked = eventHandler(it.transition)
             keyHandlers.add(keyHandler(it.key, it.transition))

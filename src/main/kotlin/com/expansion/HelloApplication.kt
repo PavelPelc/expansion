@@ -1,4 +1,4 @@
-package com.expansion.expansion
+package com.expansion
 
 import javafx.application.Application
 import javafx.fxml.FXMLLoader

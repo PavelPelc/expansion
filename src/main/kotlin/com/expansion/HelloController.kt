@@ -1,4 +1,4 @@
-package com.expansion.expansion
+package com.expansion
 
 import javafx.fxml.FXML
 import javafx.scene.control.Label

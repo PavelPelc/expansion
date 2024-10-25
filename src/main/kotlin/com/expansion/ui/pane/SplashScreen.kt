@@ -55,7 +55,7 @@ class SplashScreen : AbstractScreen() {
                     word = word((third / UiContext.EM).toInt())
                     art = TextArt(word, 2.0*third, UiContext.TEXT_SIZE * row)
                     group.children.addAll(art.enlist())
-                    art = TextArt(appName, third + ((third - appName.length*UiContext.EM)/2.0), UiContext.TEXT_SIZE * row, Color.BLACK)
+                    art = TextArt(appName, third + ((third - appName.length* UiContext.EM)/2.0), UiContext.TEXT_SIZE * row, Color.BLACK)
                     group.children.addAll(art.enlist())
 
                 }

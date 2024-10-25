@@ -17,7 +17,7 @@ class BiMaApp : Application() {
     private val paneManager = UiContext.paneManager
     override fun start(stage: Stage) {
 
-        val scene = Scene(paneManager.first(),UiContext.WINDOW_WIDTH,UiContext.WINDOW_HEIGHT, Color.TRANSPARENT)
+        val scene = Scene(paneManager.first(), UiContext.WINDOW_WIDTH, UiContext.WINDOW_HEIGHT, Color.TRANSPARENT)
         stage.scene = scene
         stage.title = "Bi Ma  - 0.0.1"
         paneManager.first().visibleProperty().set(true) //Maybe help on Ubuntu, on win works correctly without
