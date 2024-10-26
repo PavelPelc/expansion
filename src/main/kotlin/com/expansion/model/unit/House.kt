@@ -1,4 +1,4 @@
-package com.expansion.model
+package com.expansion.model.unit
 
 import com.expansion.model.plane.Dot
 
